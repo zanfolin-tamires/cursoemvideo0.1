@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+:root {
+    --grey0: #FFFFFF;
+    --primary: #9FCC07;
+    --secondary: #1D2307;
+    --background-color: #dbff633a; 
+    --fonte-principal: 'Manrope', sans-serif;
+
+}
+
+* {
+    margin 0;
+
+
+}
+
+body {
+    background-color: #dbff6371 ;
+    font-family: var(--fonte-principal);
+    margin: 0;
+  
+}
+
+.cabecalho {
+
+    background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
+ background-position: absolute;
+background-size: cover;
+    height: 329px;
+    display: flex;
+
+
+}
+
+
+ 
+
+
+   
+.conteudoheader {
+margin: auto;
+width: 1032px; 
+min-width: 300px;
+padding: 0 32px;
+}
+
+
+.conteudoheader > h1 {
+    color: var(--primary);
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 800;
+    
+   
+    margin: 0 auto;
+   
+   
+}
+
+.conteudoheader > p {
+    color: var(--grey0);
+    font-size: 24px ;
+    line-height: 32px;
+    font-weight: 400;
+    padding: 0;
+   
+ 
+
+}
+
+
+nav {
+    background-color: var(--primary);
+    font-size: 16px;
+    font-weight: 800;
+   
+    margin: auto;
+  
+   
+
+}
+
+.links {
+    display: flex;
+    white-space: inherit;
+    gap: 21px;
+    margin: auto;
+    
+width: 1032px; 
+min-width: 300px;
+
+}
+
+.links a:hover {
+background-color:var(--secondary);
+color: var(--primary);
+transition: 0.5s;
+
+
+
+}
+
+
+.links a {
+    text-decoration: none;
+    color: var(--secondary);
+    padding: 16px 8px;
+}
+
+ main a {
+    text-decoration: underline;
+ 
+    color: inherit;
+    
+    
+ }
+
+    
+
+
+main {
+    min-width: 300px;
+    max-width: 1032px;
+    margin: auto;
+    margin-top: 68px;
+    margin-bottom: 68px;
+   padding: 0 32px;
+}
+
+.irina {
+    width: 100%;
+}
+
+.android {
+    width: 100%;
+}
+
+main .bugdroid {
+    display: block;
+    margin: auto ;
+    max-width: 350px;
+}
+
+
+
+main h1 {
+    color: var(--secondary);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+main h2 {
+    font-size: 24px ;
+    font-weight: 400;
+    color: var(--secondary);
+}
+
+main img {
+width:
+}
+
+main strong {
+    color: var(--primary);
+    font-weight: 800;
+}
+
+footer {
+    background-color: var(--secondary);
+    color: var(--grey0);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+p {
+    margin: 16px 0;
+}
+
+aside ul {
+    list-style-position: inside;
+    list-style-type: '\2714';
+    columns: 2;
+
+}
+
+aside {
+    padding: 32px 40px;
+    background-color: #1D2307;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+aside > h2 {
+    color: #9FCC07;
+    font-weight: 700;
+}
+
+
+.video {
+padding: 48px 0 ;
+position: relative;
+display: flex;
+justify-content: center;
+
+
+}
+
+.video > iframe {
+border-radius: 8px;
+}
